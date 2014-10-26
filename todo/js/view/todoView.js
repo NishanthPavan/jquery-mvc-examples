@@ -8,7 +8,7 @@ define(['jquery', 'model/todos', 'events'], function($, todos, events) {
 
             var $div = $('<div />').text(todo.description);
             $div.append($('<a/>')
-                .text('Ta bort')
+                .text('Remove')
                 .attr('href', '#')
                 .addClass('js-todos__remove-todo todos__remove-todo')
                 .data('index', index));
